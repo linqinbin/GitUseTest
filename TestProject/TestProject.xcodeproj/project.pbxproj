@@ -13,6 +13,7 @@
 		263507531C8592F3006A4341 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 263507511C8592F3006A4341 /* Main.storyboard */; };
 		263507551C8592F3006A4341 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 263507541C8592F3006A4341 /* Assets.xcassets */; };
 		263507581C8592F3006A4341 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 263507561C8592F3006A4341 /* LaunchScreen.storyboard */; };
+		A1A8C6331C85DEDA0055A62C /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A8C6321C85DEDA0055A62C /* Student.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		263507541C8592F3006A4341 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		263507571C8592F3006A4341 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		263507591C8592F3006A4341 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1A8C6311C85DEDA0055A62C /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		A1A8C6321C85DEDA0055A62C /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				2635074C1C8592F3006A4341 /* AppDelegate.m */,
 				2635074E1C8592F3006A4341 /* ViewController.h */,
 				2635074F1C8592F3006A4341 /* ViewController.m */,
+				A1A8C6311C85DEDA0055A62C /* Student.h */,
+				A1A8C6321C85DEDA0055A62C /* Student.m */,
 				263507511C8592F3006A4341 /* Main.storyboard */,
 				263507541C8592F3006A4341 /* Assets.xcassets */,
 				263507561C8592F3006A4341 /* LaunchScreen.storyboard */,
@@ -152,6 +157,7 @@
 				263507501C8592F3006A4341 /* ViewController.m in Sources */,
 				2635074D1C8592F3006A4341 /* AppDelegate.m in Sources */,
 				2635074A1C8592F3006A4341 /* main.m in Sources */,
+				A1A8C6331C85DEDA0055A62C /* Student.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +306,7 @@
 				2635075E1C8592F3006A4341 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
