@@ -14,6 +14,7 @@
 		263507551C8592F3006A4341 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 263507541C8592F3006A4341 /* Assets.xcassets */; };
 		263507581C8592F3006A4341 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 263507561C8592F3006A4341 /* LaunchScreen.storyboard */; };
 		A1A8C6331C85DEDA0055A62C /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A8C6321C85DEDA0055A62C /* Student.m */; };
+		A1A8C6361C85E57C0055A62C /* Boy.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A8C6351C85E57C0055A62C /* Boy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		263507591C8592F3006A4341 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1A8C6311C85DEDA0055A62C /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
 		A1A8C6321C85DEDA0055A62C /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		A1A8C6341C85E57C0055A62C /* Boy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Boy.h; sourceTree = "<group>"; };
+		A1A8C6351C85E57C0055A62C /* Boy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Boy.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				2635074F1C8592F3006A4341 /* ViewController.m */,
 				A1A8C6311C85DEDA0055A62C /* Student.h */,
 				A1A8C6321C85DEDA0055A62C /* Student.m */,
+				A1A8C6341C85E57C0055A62C /* Boy.h */,
+				A1A8C6351C85E57C0055A62C /* Boy.m */,
 				263507511C8592F3006A4341 /* Main.storyboard */,
 				263507541C8592F3006A4341 /* Assets.xcassets */,
 				263507561C8592F3006A4341 /* LaunchScreen.storyboard */,
@@ -156,6 +161,7 @@
 			files = (
 				263507501C8592F3006A4341 /* ViewController.m in Sources */,
 				2635074D1C8592F3006A4341 /* AppDelegate.m in Sources */,
+				A1A8C6361C85E57C0055A62C /* Boy.m in Sources */,
 				2635074A1C8592F3006A4341 /* main.m in Sources */,
 				A1A8C6331C85DEDA0055A62C /* Student.m in Sources */,
 			);
