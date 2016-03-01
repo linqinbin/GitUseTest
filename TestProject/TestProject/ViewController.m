@@ -19,6 +19,8 @@
     // Do any additional setup after loading the view, typically from a nib.
     NSLog(@"Hello World!");
     NSLog(@"这是提交到分支FirstBranch1");
+    NSLog(@"这是提交到分支FirstBranch");
+    NSLog(@"这是提交到分支FirstBranch2");
 }
 
 - (void)didReceiveMemoryWarning {
