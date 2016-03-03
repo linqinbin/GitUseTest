@@ -7,8 +7,9 @@
 //
 
 #import "ViewController.h"
+#import "SecondViewController.h"
 
-@interface ViewController ()
+@interface ViewController ()<UIViewControllerAnimatedTransitioning>
 
 @end
 
@@ -19,6 +20,12 @@
     // Do any additional setup after loading the view, typically from a nib.
     NSLog(@"Hello World!");
 }
+- (IBAction)btnClick:(UIButton *)sender {
+    SecondViewController *secondVC = [[SecondViewController alloc]init];
+    [self presentViewController:secondVC animated:YES completion:nil];
+}
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

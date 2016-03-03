@@ -16,6 +16,10 @@
 		A1A8C6331C85DEDA0055A62C /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A8C6321C85DEDA0055A62C /* Student.m */; };
 		A1A8C6361C85E57C0055A62C /* Boy.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A8C6351C85E57C0055A62C /* Boy.m */; };
 		A1A8C6401C8739380055A62C /* Girl.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A8C63F1C8739380055A62C /* Girl.m */; };
+		A1A8C6441C873BB10055A62C /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A8C6421C873BB10055A62C /* SecondViewController.m */; };
+		A1A8C6451C873BB10055A62C /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1A8C6431C873BB10055A62C /* SecondViewController.xib */; };
+		A1A8C64B1C888B370055A62C /* UIImageView+AddCornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A8C6481C888B370055A62C /* UIImageView+AddCornerRadius.m */; };
+		A1A8C64C1C888B370055A62C /* UIView+AddCornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A8C64A1C888B370055A62C /* UIView+AddCornerRadius.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +39,13 @@
 		A1A8C6351C85E57C0055A62C /* Boy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Boy.m; sourceTree = "<group>"; };
 		A1A8C63E1C8739380055A62C /* Girl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Girl.h; sourceTree = "<group>"; };
 		A1A8C63F1C8739380055A62C /* Girl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Girl.m; sourceTree = "<group>"; };
+		A1A8C6411C873BB10055A62C /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		A1A8C6421C873BB10055A62C /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		A1A8C6431C873BB10055A62C /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		A1A8C6471C888B370055A62C /* UIImageView+AddCornerRadius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AddCornerRadius.h"; sourceTree = "<group>"; };
+		A1A8C6481C888B370055A62C /* UIImageView+AddCornerRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AddCornerRadius.m"; sourceTree = "<group>"; };
+		A1A8C6491C888B370055A62C /* UIView+AddCornerRadius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AddCornerRadius.h"; sourceTree = "<group>"; };
+		A1A8C64A1C888B370055A62C /* UIView+AddCornerRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AddCornerRadius.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,10 +78,14 @@
 		263507471C8592F3006A4341 /* TestProject */ = {
 			isa = PBXGroup;
 			children = (
+				A1A8C6461C888B020055A62C /* UIView圆角 */,
 				2635074B1C8592F3006A4341 /* AppDelegate.h */,
 				2635074C1C8592F3006A4341 /* AppDelegate.m */,
 				2635074E1C8592F3006A4341 /* ViewController.h */,
 				2635074F1C8592F3006A4341 /* ViewController.m */,
+				A1A8C6411C873BB10055A62C /* SecondViewController.h */,
+				A1A8C6421C873BB10055A62C /* SecondViewController.m */,
+				A1A8C6431C873BB10055A62C /* SecondViewController.xib */,
 				A1A8C6311C85DEDA0055A62C /* Student.h */,
 				A1A8C6321C85DEDA0055A62C /* Student.m */,
 				A1A8C6341C85E57C0055A62C /* Boy.h */,
@@ -92,6 +107,17 @@
 				263507491C8592F3006A4341 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A1A8C6461C888B020055A62C /* UIView圆角 */ = {
+			isa = PBXGroup;
+			children = (
+				A1A8C6471C888B370055A62C /* UIImageView+AddCornerRadius.h */,
+				A1A8C6481C888B370055A62C /* UIImageView+AddCornerRadius.m */,
+				A1A8C6491C888B370055A62C /* UIView+AddCornerRadius.h */,
+				A1A8C64A1C888B370055A62C /* UIView+AddCornerRadius.m */,
+			);
+			path = "UIView圆角";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +177,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1A8C6451C873BB10055A62C /* SecondViewController.xib in Resources */,
 				263507581C8592F3006A4341 /* LaunchScreen.storyboard in Resources */,
 				263507551C8592F3006A4341 /* Assets.xcassets in Resources */,
 				263507531C8592F3006A4341 /* Main.storyboard in Resources */,
@@ -165,8 +192,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				263507501C8592F3006A4341 /* ViewController.m in Sources */,
+				A1A8C64B1C888B370055A62C /* UIImageView+AddCornerRadius.m in Sources */,
 				2635074D1C8592F3006A4341 /* AppDelegate.m in Sources */,
+				A1A8C64C1C888B370055A62C /* UIView+AddCornerRadius.m in Sources */,
 				A1A8C6361C85E57C0055A62C /* Boy.m in Sources */,
+				A1A8C6441C873BB10055A62C /* SecondViewController.m in Sources */,
 				2635074A1C8592F3006A4341 /* main.m in Sources */,
 				A1A8C6331C85DEDA0055A62C /* Student.m in Sources */,
 				A1A8C6401C8739380055A62C /* Girl.m in Sources */,
