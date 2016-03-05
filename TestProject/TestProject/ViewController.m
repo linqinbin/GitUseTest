@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "SecondViewController.h"
+#import "AutolayoutCellViewController.h"
 
 @interface ViewController ()<UIViewControllerAnimatedTransitioning>
 
@@ -19,6 +20,10 @@
   [super viewDidLoad];
   // Do any additional setup after loading the view, typically from a nib.
   NSLog(@"Hello World!");
+}
+- (IBAction)autolayoutCellClick:(UIButton *)sender {
+    AutolayoutCellViewController *secondVC = [[AutolayoutCellViewController alloc] init];
+    [self presentViewController:secondVC animated:YES completion:nil];
 }
 - (IBAction)btnClick:(UIButton *)sender {
   SecondViewController *secondVC = [[SecondViewController alloc] init];

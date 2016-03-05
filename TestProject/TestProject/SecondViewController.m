@@ -23,6 +23,8 @@
     view.backgroundColor = [UIColor redColor];
     [self.view addSubview:view];
     [view qb_setCornerAnyPositionByRoundingCorners:UIRectCornerTopLeft | UIRectCornerBottomRight cornerRadii:CGSizeMake(10, 10)];
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
