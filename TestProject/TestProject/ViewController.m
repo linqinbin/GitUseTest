@@ -19,7 +19,10 @@
 - (void)viewDidLoad {
   [super viewDidLoad];
   // Do any additional setup after loading the view, typically from a nib.
-  NSLog(@"Hello World!");
+    [self NSInvocationTest];
+    
+    
+    
 }
 - (IBAction)autolayoutCellClick:(UIButton *)sender {
     AutolayoutCellViewController *secondVC = [[AutolayoutCellViewController alloc] init];
@@ -31,6 +34,43 @@
     
     
 }
+
+#pragma mark NSInvocation的简单使用 例子：只知道方法名字符串，来执行方法
+- (void)NSInvocationTest{
+    //方法名字符串
+    NSString *methodNameStr = @"test:withArg2:andArg3:";
+    SEL selector = NSSelectorFromString(methodNameStr);
+    
+//    NSMethodSignature有两个常用的只读属性a. numberOfArguments:方法参数的个数b. methodReturnLength:方法返回值类型的长度，大于0表示有返回值
+    //创建签名和NSInvocation对象，并赋值
+    NSMethodSignature *signature = [self methodSignatureForSelector:selector];
+    NSInvocation *invocation = [NSInvocation invocationWithMethodSignature:signature];
+    invocation.target = self;
+    invocation.selector = selector;
+ 
+//    4.给要执行的方法设置参数使用setArgument:atIndex:方法给要执行的方法设置参数，注意下标从2开始，因为0、1已经被target与selector占用
+    NSString *arg1 = @"a";
+    NSString *arg2 = @"b";
+    NSString *arg3 = @"c";
+    [invocation setArgument:&arg1 atIndex:2];
+    [invocation setArgument:&arg2 atIndex:3];
+    [invocation setArgument:&arg3 atIndex:4];
+    //执行方法
+    [invocation invoke];
+    
+    //通过方法签名的methodReturnLength判断是否有返回值
+    if (signature.methodReturnLength > 0) {
+        id result = nil;
+        [invocation getReturnValue:&result];
+        NSLog(@"%@",result);
+    }
+}
+//要执行的方法
+- (NSString *)test:(NSString *)arg1 withArg2:(NSString *)arg2 andArg3:(NSString *)arg3 {
+    NSLog(@"%@---%@---%@", arg1, arg2, arg3);
+    return @"haha";
+}
+#pragma mark GCD
 - (void)GCD_Common{
     // 一次性执行：
     static dispatch_once_t onceToken;
