@@ -13,6 +13,7 @@
 		263507531C8592F3006A4341 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 263507511C8592F3006A4341 /* Main.storyboard */; };
 		263507551C8592F3006A4341 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 263507541C8592F3006A4341 /* Assets.xcassets */; };
 		263507581C8592F3006A4341 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 263507561C8592F3006A4341 /* LaunchScreen.storyboard */; };
+		26488C051C9901100009FC64 /* QRReaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26488C041C9901100009FC64 /* QRReaderViewController.m */; };
 		A1A8C6331C85DEDA0055A62C /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A8C6321C85DEDA0055A62C /* Student.m */; };
 		A1A8C6361C85E57C0055A62C /* Boy.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A8C6351C85E57C0055A62C /* Boy.m */; };
 		A1A8C6401C8739380055A62C /* Girl.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A8C63F1C8739380055A62C /* Girl.m */; };
@@ -43,6 +44,8 @@
 		263507541C8592F3006A4341 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		263507571C8592F3006A4341 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		263507591C8592F3006A4341 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26488C031C9901100009FC64 /* QRReaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRReaderViewController.h; sourceTree = "<group>"; };
+		26488C041C9901100009FC64 /* QRReaderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRReaderViewController.m; sourceTree = "<group>"; };
 		A1A8C6311C85DEDA0055A62C /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
 		A1A8C6321C85DEDA0055A62C /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
 		A1A8C6341C85E57C0055A62C /* Boy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Boy.h; sourceTree = "<group>"; };
@@ -101,6 +104,7 @@
 		263507471C8592F3006A4341 /* TestProject */ = {
 			isa = PBXGroup;
 			children = (
+				26488C021C9900D20009FC64 /* 二维码扫描 */,
 				A1EFD9CE1C8AD0B700231A77 /* AutolayoutCell */,
 				A1EFD9CA1C8AC57F00231A77 /* NSTimer */,
 				A1A8C6461C888B020055A62C /* UIView圆角 */,
@@ -132,6 +136,15 @@
 				263507491C8592F3006A4341 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		26488C021C9900D20009FC64 /* 二维码扫描 */ = {
+			isa = PBXGroup;
+			children = (
+				26488C031C9901100009FC64 /* QRReaderViewController.h */,
+				26488C041C9901100009FC64 /* QRReaderViewController.m */,
+			);
+			path = "二维码扫描";
 			sourceTree = "<group>";
 		};
 		A1A8C6461C888B020055A62C /* UIView圆角 */ = {
@@ -260,6 +273,7 @@
 				A1A8C6361C85E57C0055A62C /* Boy.m in Sources */,
 				A1A8C6441C873BB10055A62C /* SecondViewController.m in Sources */,
 				2635074A1C8592F3006A4341 /* main.m in Sources */,
+				26488C051C9901100009FC64 /* QRReaderViewController.m in Sources */,
 				A1A8C6331C85DEDA0055A62C /* Student.m in Sources */,
 				A1A8C6401C8739380055A62C /* Girl.m in Sources */,
 			);

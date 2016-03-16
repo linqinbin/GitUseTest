@@ -9,10 +9,10 @@
 #import "ViewController.h"
 #import "SecondViewController.h"
 #import "AutolayoutCellViewController.h"
+#import "QRReaderViewController.h"
 
-@interface ViewController ()<UIViewControllerAnimatedTransitioning>
+@interface ViewController ()
 
-@property (weak, nonatomic) IBOutlet UIWebView *webView;
 @end
 
 @implementation ViewController
@@ -20,18 +20,21 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-
-    [self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://www.jianshu.com/p/257a28846956"]]];
-    
-
-    NSLog(@"Hello World!");
-
-  // Do any additional setup after loading the view, typically from a nib.
-    [self NSInvocationTest];
+//    [self NSInvocationTest];
     
     
     
 }
+
+
+- (IBAction)qrBtnClick:(UIButton *)sender {
+    QRReaderViewController *QRVC = [[QRReaderViewController alloc]init];
+    
+    [self.navigationController pushViewController:QRVC animated:YES];
+}
+
+
+
 - (IBAction)autolayoutCellClick:(UIButton *)sender {
     AutolayoutCellViewController *secondVC = [[AutolayoutCellViewController alloc] init];
     [self presentViewController:secondVC animated:YES completion:nil];
