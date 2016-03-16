@@ -14,7 +14,7 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qbd-d7-UNr">
@@ -24,6 +24,13 @@
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="4nE-pu-gM6"/>
                                 </connections>
                             </webView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P5P-II-EQv">
+                                <rect key="frame" x="27" y="84" width="86" height="30"/>
+                                <state key="normal" title="动态高度Cell"/>
+                                <connections>
+                                    <action selector="autolayoutCellClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IfC-0Y-3xs"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -36,9 +43,30 @@
                     <connections>
                         <outlet property="webView" destination="qbd-d7-UNr" id="td7-J6-e6Z"/>
                     </connections>
+                    <navigationItem key="navigationItem" id="swF-Il-diC"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1092" y="265"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="mr2-ha-7W7">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="efk-L8-L24" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="rhl-xl-RPI">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="nlw-1v-4iw"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dwq-Z3-dI7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="919" y="247"/>
         </scene>
     </scenes>
 </document>
