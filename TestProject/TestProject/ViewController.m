@@ -10,6 +10,7 @@
 #import "SecondViewController.h"
 #import "AutolayoutCellViewController.h"
 #import "QRReaderViewController.h"
+#import "JavaScriptCoreViewController.h"
 
 @interface ViewController ()
 
@@ -33,6 +34,11 @@
     [self.navigationController pushViewController:QRVC animated:YES];
 }
 
+- (IBAction)jsTestClick:(id)sender {
+    JavaScriptCoreViewController *JSVC = [[JavaScriptCoreViewController alloc]init];
+    
+    [self.navigationController pushViewController:JSVC animated:YES];
+}
 
 
 - (IBAction)autolayoutCellClick:(UIButton *)sender {

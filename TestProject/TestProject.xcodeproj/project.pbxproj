@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		260964B51CA11F2000AE08FA /* 123.html in Resources */ = {isa = PBXBuildFile; fileRef = 260964B41CA11F2000AE08FA /* 123.html */; };
+		260964B81CA1237900AE08FA /* JSTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 260964B71CA1237900AE08FA /* JSTest.m */; };
 		2635074A1C8592F3006A4341 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 263507491C8592F3006A4341 /* main.m */; };
 		2635074D1C8592F3006A4341 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2635074C1C8592F3006A4341 /* AppDelegate.m */; };
 		263507501C8592F3006A4341 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2635074F1C8592F3006A4341 /* ViewController.m */; };
 		263507531C8592F3006A4341 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 263507511C8592F3006A4341 /* Main.storyboard */; };
 		263507551C8592F3006A4341 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 263507541C8592F3006A4341 /* Assets.xcassets */; };
 		263507581C8592F3006A4341 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 263507561C8592F3006A4341 /* LaunchScreen.storyboard */; };
+		263874BF1CA0E3C400FEDF15 /* JavaScriptCoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 263874BD1CA0E3C400FEDF15 /* JavaScriptCoreViewController.m */; };
+		263874C01CA0E3C400FEDF15 /* JavaScriptCoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 263874BE1CA0E3C400FEDF15 /* JavaScriptCoreViewController.xib */; };
 		26488C051C9901100009FC64 /* QRReaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26488C041C9901100009FC64 /* QRReaderViewController.m */; };
 		A1A8C6331C85DEDA0055A62C /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A8C6321C85DEDA0055A62C /* Student.m */; };
 		A1A8C6361C85E57C0055A62C /* Boy.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A8C6351C85E57C0055A62C /* Boy.m */; };
@@ -34,6 +38,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		260964B41CA11F2000AE08FA /* 123.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 123.html; sourceTree = "<group>"; };
+		260964B61CA1237900AE08FA /* JSTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSTest.h; sourceTree = "<group>"; };
+		260964B71CA1237900AE08FA /* JSTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSTest.m; sourceTree = "<group>"; };
 		263507451C8592F3006A4341 /* TestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		263507491C8592F3006A4341 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2635074B1C8592F3006A4341 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -44,6 +51,9 @@
 		263507541C8592F3006A4341 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		263507571C8592F3006A4341 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		263507591C8592F3006A4341 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		263874BC1CA0E3C400FEDF15 /* JavaScriptCoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JavaScriptCoreViewController.h; sourceTree = "<group>"; };
+		263874BD1CA0E3C400FEDF15 /* JavaScriptCoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JavaScriptCoreViewController.m; sourceTree = "<group>"; };
+		263874BE1CA0E3C400FEDF15 /* JavaScriptCoreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JavaScriptCoreViewController.xib; sourceTree = "<group>"; };
 		26488C031C9901100009FC64 /* QRReaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRReaderViewController.h; sourceTree = "<group>"; };
 		26488C041C9901100009FC64 /* QRReaderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRReaderViewController.m; sourceTree = "<group>"; };
 		A1A8C6311C85DEDA0055A62C /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
@@ -104,6 +114,7 @@
 		263507471C8592F3006A4341 /* TestProject */ = {
 			isa = PBXGroup;
 			children = (
+				263874BB1CA0E37F00FEDF15 /* JavaScriptCore  */,
 				26488C021C9900D20009FC64 /* 二维码扫描 */,
 				A1EFD9CE1C8AD0B700231A77 /* AutolayoutCell */,
 				A1EFD9CA1C8AC57F00231A77 /* NSTimer */,
@@ -136,6 +147,19 @@
 				263507491C8592F3006A4341 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		263874BB1CA0E37F00FEDF15 /* JavaScriptCore  */ = {
+			isa = PBXGroup;
+			children = (
+				260964B41CA11F2000AE08FA /* 123.html */,
+				263874BC1CA0E3C400FEDF15 /* JavaScriptCoreViewController.h */,
+				263874BD1CA0E3C400FEDF15 /* JavaScriptCoreViewController.m */,
+				263874BE1CA0E3C400FEDF15 /* JavaScriptCoreViewController.xib */,
+				260964B61CA1237900AE08FA /* JSTest.h */,
+				260964B71CA1237900AE08FA /* JSTest.m */,
+			);
+			path = "JavaScriptCore ";
 			sourceTree = "<group>";
 		};
 		26488C021C9900D20009FC64 /* 二维码扫描 */ = {
@@ -242,8 +266,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				263874C01CA0E3C400FEDF15 /* JavaScriptCoreViewController.xib in Resources */,
 				A1EFD9D31C8AD0E100231A77 /* AutolayoutCellViewController.xib in Resources */,
 				A1EFD9D81C8AD1A800231A77 /* AutayoutTableViewCell.xib in Resources */,
+				260964B51CA11F2000AE08FA /* 123.html in Resources */,
 				A1A8C6451C873BB10055A62C /* SecondViewController.xib in Resources */,
 				A1EFD9DE1C8AD21800231A77 /* 5@2x.png in Resources */,
 				A1EFD9DA1C8AD1EE00231A77 /* 1@2x.png in Resources */,
@@ -265,7 +291,9 @@
 			files = (
 				A1EFD9CD1C8AC5E300231A77 /* NSTimer+XXBlocksSupport.m in Sources */,
 				A1EFD9D71C8AD1A800231A77 /* AutayoutTableViewCell.m in Sources */,
+				263874BF1CA0E3C400FEDF15 /* JavaScriptCoreViewController.m in Sources */,
 				A1EFD9D21C8AD0E100231A77 /* AutolayoutCellViewController.m in Sources */,
+				260964B81CA1237900AE08FA /* JSTest.m in Sources */,
 				263507501C8592F3006A4341 /* ViewController.m in Sources */,
 				A1A8C64B1C888B370055A62C /* UIImageView+AddCornerRadius.m in Sources */,
 				2635074D1C8592F3006A4341 /* AppDelegate.m in Sources */,
