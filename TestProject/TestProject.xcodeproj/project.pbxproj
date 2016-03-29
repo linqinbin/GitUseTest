@@ -16,6 +16,7 @@
 		263874BF1CA0E3C400FEDF15 /* JavaScriptCoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 263874BD1CA0E3C400FEDF15 /* JavaScriptCoreViewController.m */; };
 		263874C01CA0E3C400FEDF15 /* JavaScriptCoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 263874BE1CA0E3C400FEDF15 /* JavaScriptCoreViewController.xib */; };
 		26488C051C9901100009FC64 /* QRReaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26488C041C9901100009FC64 /* QRReaderViewController.m */; };
+		2652CBD01CAA0B6300F466BB /* CommonCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 2652CBCF1CAA0B6300F466BB /* CommonCode.m */; };
 		A1A8C6331C85DEDA0055A62C /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A8C6321C85DEDA0055A62C /* Student.m */; };
 		A1A8C6361C85E57C0055A62C /* Boy.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A8C6351C85E57C0055A62C /* Boy.m */; };
 		A1A8C6401C8739380055A62C /* Girl.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A8C63F1C8739380055A62C /* Girl.m */; };
@@ -53,6 +54,8 @@
 		263874BE1CA0E3C400FEDF15 /* JavaScriptCoreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JavaScriptCoreViewController.xib; sourceTree = "<group>"; };
 		26488C031C9901100009FC64 /* QRReaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRReaderViewController.h; sourceTree = "<group>"; };
 		26488C041C9901100009FC64 /* QRReaderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRReaderViewController.m; sourceTree = "<group>"; };
+		2652CBCE1CAA0B6300F466BB /* CommonCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonCode.h; sourceTree = "<group>"; };
+		2652CBCF1CAA0B6300F466BB /* CommonCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonCode.m; sourceTree = "<group>"; };
 		A1A8C6311C85DEDA0055A62C /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
 		A1A8C6321C85DEDA0055A62C /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
 		A1A8C6341C85E57C0055A62C /* Boy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Boy.h; sourceTree = "<group>"; };
@@ -118,6 +121,7 @@
 				26488C021C9900D20009FC64 /* 二维码扫描 */,
 				A1EFD9CE1C8AD0B700231A77 /* AutolayoutCell */,
 				A1EFD9CA1C8AC57F00231A77 /* NSTimer */,
+				2652CBCD1CAA0B3000F466BB /* CommonCode */,
 				A1A8C6461C888B020055A62C /* UIView圆角 */,
 				2635074B1C8592F3006A4341 /* AppDelegate.h */,
 				2635074C1C8592F3006A4341 /* AppDelegate.m */,
@@ -169,6 +173,16 @@
 				26488C041C9901100009FC64 /* QRReaderViewController.m */,
 			);
 			path = "二维码扫描";
+			sourceTree = "<group>";
+		};
+		2652CBCD1CAA0B3000F466BB /* CommonCode */ = {
+			isa = PBXGroup;
+			children = (
+				2652CBCE1CAA0B6300F466BB /* CommonCode.h */,
+				2652CBCF1CAA0B6300F466BB /* CommonCode.m */,
+			);
+			name = CommonCode;
+			path = "UIView圆角/CommonCode";
 			sourceTree = "<group>";
 		};
 		A1A8C6461C888B020055A62C /* UIView圆角 */ = {
@@ -300,6 +314,7 @@
 				A1A8C64C1C888B370055A62C /* UIView+AddCornerRadius.m in Sources */,
 				A1A8C6361C85E57C0055A62C /* Boy.m in Sources */,
 				A1A8C6441C873BB10055A62C /* SecondViewController.m in Sources */,
+				2652CBD01CAA0B6300F466BB /* CommonCode.m in Sources */,
 				2635074A1C8592F3006A4341 /* main.m in Sources */,
 				26488C051C9901100009FC64 /* QRReaderViewController.m in Sources */,
 				A1A8C6331C85DEDA0055A62C /* Student.m in Sources */,
