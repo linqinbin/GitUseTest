@@ -16,7 +16,6 @@
 		263874BF1CA0E3C400FEDF15 /* JavaScriptCoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 263874BD1CA0E3C400FEDF15 /* JavaScriptCoreViewController.m */; };
 		263874C01CA0E3C400FEDF15 /* JavaScriptCoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 263874BE1CA0E3C400FEDF15 /* JavaScriptCoreViewController.xib */; };
 		26488C051C9901100009FC64 /* QRReaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26488C041C9901100009FC64 /* QRReaderViewController.m */; };
-		264EEA6E1CCA0B5800B02A59 /* testggg.m in Sources */ = {isa = PBXBuildFile; fileRef = 264EEA6D1CCA0B5800B02A59 /* testggg.m */; };
 		2652CBD01CAA0B6300F466BB /* CommonCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 2652CBCF1CAA0B6300F466BB /* CommonCode.m */; };
 		266FED3B1CBC99F400C63E07 /* UIImage+QRCodeImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 266FED3A1CBC99F400C63E07 /* UIImage+QRCodeImage.m */; };
 		A1A8C6331C85DEDA0055A62C /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A8C6321C85DEDA0055A62C /* Student.m */; };
@@ -57,8 +56,6 @@
 		263874BE1CA0E3C400FEDF15 /* JavaScriptCoreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JavaScriptCoreViewController.xib; sourceTree = "<group>"; };
 		26488C031C9901100009FC64 /* QRReaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRReaderViewController.h; sourceTree = "<group>"; };
 		26488C041C9901100009FC64 /* QRReaderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRReaderViewController.m; sourceTree = "<group>"; };
-		264EEA6C1CCA0B5800B02A59 /* testggg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testggg.h; sourceTree = "<group>"; };
-		264EEA6D1CCA0B5800B02A59 /* testggg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testggg.m; sourceTree = "<group>"; };
 		2652CBCE1CAA0B6300F466BB /* CommonCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonCode.h; sourceTree = "<group>"; };
 		2652CBCF1CAA0B6300F466BB /* CommonCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonCode.m; sourceTree = "<group>"; };
 		266FED391CBC99F400C63E07 /* UIImage+QRCodeImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+QRCodeImage.h"; sourceTree = "<group>"; };
@@ -146,8 +143,6 @@
 				A1A8C6341C85E57C0055A62C /* Boy.h */,
 				A1A8C6351C85E57C0055A62C /* Boy.m */,
 				A1A8C63E1C8739380055A62C /* Girl.h */,
-				264EEA6C1CCA0B5800B02A59 /* testggg.h */,
-				264EEA6D1CCA0B5800B02A59 /* testggg.m */,
 				A1A8C63F1C8739380055A62C /* Girl.m */,
 				263507541C8592F3006A4341 /* Assets.xcassets */,
 				263507561C8592F3006A4341 /* LaunchScreen.storyboard */,
@@ -329,7 +324,6 @@
 				A1EFD9CD1C8AC5E300231A77 /* NSTimer+XXBlocksSupport.m in Sources */,
 				266FED3B1CBC99F400C63E07 /* UIImage+QRCodeImage.m in Sources */,
 				A1EFD9D71C8AD1A800231A77 /* AutayoutTableViewCell.m in Sources */,
-				264EEA6E1CCA0B5800B02A59 /* testggg.m in Sources */,
 				A1F027341CAEC7F5004B98A4 /* GCDCode.m in Sources */,
 				263874BF1CA0E3C400FEDF15 /* JavaScriptCoreViewController.m in Sources */,
 				A1EFDD681CA195CC00231A77 /* MainViewController.m in Sources */,
