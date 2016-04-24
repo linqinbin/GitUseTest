@@ -18,9 +18,6 @@
 		26488C051C9901100009FC64 /* QRReaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26488C041C9901100009FC64 /* QRReaderViewController.m */; };
 		2652CBD01CAA0B6300F466BB /* CommonCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 2652CBCF1CAA0B6300F466BB /* CommonCode.m */; };
 		266FED3B1CBC99F400C63E07 /* UIImage+QRCodeImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 266FED3A1CBC99F400C63E07 /* UIImage+QRCodeImage.m */; };
-		A17BDB1B1CCD04D4001B2D5B /* NSString+ChineseJudge.m in Sources */ = {isa = PBXBuildFile; fileRef = A17BDB1A1CCD04D4001B2D5B /* NSString+ChineseJudge.m */; };
-		A17BDB1F1CCD05F8001B2D5B /* Stundent.m in Sources */ = {isa = PBXBuildFile; fileRef = A17BDB1E1CCD05F8001B2D5B /* Stundent.m */; };
-		A17BDB221CCD062B001B2D5B /* Stundent+AddProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = A17BDB211CCD062B001B2D5B /* Stundent+AddProperty.m */; };
 		A1A8C6441C873BB10055A62C /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A8C6421C873BB10055A62C /* SecondViewController.m */; };
 		A1A8C6451C873BB10055A62C /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1A8C6431C873BB10055A62C /* SecondViewController.xib */; };
 		A1A8C64B1C888B370055A62C /* UIImageView+AddCornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A8C6481C888B370055A62C /* UIImageView+AddCornerRadius.m */; };
@@ -60,12 +57,6 @@
 		2652CBCF1CAA0B6300F466BB /* CommonCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonCode.m; sourceTree = "<group>"; };
 		266FED391CBC99F400C63E07 /* UIImage+QRCodeImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+QRCodeImage.h"; sourceTree = "<group>"; };
 		266FED3A1CBC99F400C63E07 /* UIImage+QRCodeImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+QRCodeImage.m"; sourceTree = "<group>"; };
-		A17BDB191CCD04D4001B2D5B /* NSString+ChineseJudge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ChineseJudge.h"; sourceTree = "<group>"; };
-		A17BDB1A1CCD04D4001B2D5B /* NSString+ChineseJudge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ChineseJudge.m"; sourceTree = "<group>"; };
-		A17BDB1D1CCD05F8001B2D5B /* Stundent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stundent.h; sourceTree = "<group>"; };
-		A17BDB1E1CCD05F8001B2D5B /* Stundent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stundent.m; sourceTree = "<group>"; };
-		A17BDB201CCD062B001B2D5B /* Stundent+AddProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Stundent+AddProperty.h"; sourceTree = "<group>"; };
-		A17BDB211CCD062B001B2D5B /* Stundent+AddProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Stundent+AddProperty.m"; sourceTree = "<group>"; };
 		A1A8C6411C873BB10055A62C /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		A1A8C6421C873BB10055A62C /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		A1A8C6431C873BB10055A62C /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
@@ -123,7 +114,6 @@
 		263507471C8592F3006A4341 /* TestProject */ = {
 			isa = PBXGroup;
 			children = (
-				A17BDB171CCD048A001B2D5B /* Category */,
 				A1F027311CAEC7DA004B98A4 /* GCD */,
 				263874BB1CA0E37F00FEDF15 /* JavaScriptCore  */,
 				26488C021C9900D20009FC64 /* 二维码扫描 */,
@@ -187,35 +177,6 @@
 			);
 			name = CommonCode;
 			path = "UIView圆角/CommonCode";
-			sourceTree = "<group>";
-		};
-		A17BDB171CCD048A001B2D5B /* Category */ = {
-			isa = PBXGroup;
-			children = (
-				A17BDB1C1CCD05E6001B2D5B /* Object */,
-				A17BDB181CCD048A001B2D5B /* NSString */,
-			);
-			path = Category;
-			sourceTree = "<group>";
-		};
-		A17BDB181CCD048A001B2D5B /* NSString */ = {
-			isa = PBXGroup;
-			children = (
-				A17BDB191CCD04D4001B2D5B /* NSString+ChineseJudge.h */,
-				A17BDB1A1CCD04D4001B2D5B /* NSString+ChineseJudge.m */,
-			);
-			path = NSString;
-			sourceTree = "<group>";
-		};
-		A17BDB1C1CCD05E6001B2D5B /* Object */ = {
-			isa = PBXGroup;
-			children = (
-				A17BDB1D1CCD05F8001B2D5B /* Stundent.h */,
-				A17BDB1E1CCD05F8001B2D5B /* Stundent.m */,
-				A17BDB201CCD062B001B2D5B /* Stundent+AddProperty.h */,
-				A17BDB211CCD062B001B2D5B /* Stundent+AddProperty.m */,
-			);
-			path = Object;
 			sourceTree = "<group>";
 		};
 		A1A8C6461C888B020055A62C /* UIView圆角 */ = {
@@ -348,15 +309,12 @@
 				A1EFD9CD1C8AC5E300231A77 /* NSTimer+XXBlocksSupport.m in Sources */,
 				266FED3B1CBC99F400C63E07 /* UIImage+QRCodeImage.m in Sources */,
 				A1EFD9D71C8AD1A800231A77 /* AutayoutTableViewCell.m in Sources */,
-				A17BDB221CCD062B001B2D5B /* Stundent+AddProperty.m in Sources */,
-				A17BDB1B1CCD04D4001B2D5B /* NSString+ChineseJudge.m in Sources */,
 				A1F027341CAEC7F5004B98A4 /* GCDCode.m in Sources */,
 				263874BF1CA0E3C400FEDF15 /* JavaScriptCoreViewController.m in Sources */,
 				A1EFDD681CA195CC00231A77 /* MainViewController.m in Sources */,
 				A1EFD9D21C8AD0E100231A77 /* AutolayoutCellViewController.m in Sources */,
 				260964B81CA1237900AE08FA /* JSTest.m in Sources */,
 				A1A8C64B1C888B370055A62C /* UIImageView+AddCornerRadius.m in Sources */,
-				A17BDB1F1CCD05F8001B2D5B /* Stundent.m in Sources */,
 				2635074D1C8592F3006A4341 /* AppDelegate.m in Sources */,
 				A1A8C64C1C888B370055A62C /* UIView+AddCornerRadius.m in Sources */,
 				A1A8C6441C873BB10055A62C /* SecondViewController.m in Sources */,
