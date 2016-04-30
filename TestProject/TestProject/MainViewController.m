@@ -11,6 +11,7 @@
 #import "MainViewController.h"
 #import "QRReaderViewController.h"
 #import "SecondViewController.h"
+#import "UIDefine.h"
 
 @interface MainViewController ()
 
@@ -23,6 +24,12 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     //    [self NSInvocationTest];
+    
+    NSLog(@"%@",kHomePath);
+    NSLog(@"%@",kDocumentsPath);
+    NSLog(@"%@",kTmpPath);
+    NSLog(@"%@",kLibraryPath);
+    NSLog(@"%@",kLibraryCachesPath);
 }
 
 - (IBAction)qrBtnClick:(UIButton*)sender

@@ -35,5 +35,11 @@ alpha:a]
 #define ScreenWidth [UIScreen mainScreen].bounds.size.width
 #define onePX (1 / [[UIScreen mainScreen] scale])
 
+#define kHomePath NSHomeDirectory()
+#define kDocumentsPath [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES)objectAtIndex:0]
+#define kLibraryPath [NSSearchPathForDirectoriesInDomains(NSLibraryDirectory, NSUserDomainMask, YES)objectAtIndex:0]
+#define kLibraryCachesPath [NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES)objectAtIndex:0]
+#define kTmpPath NSTemporaryDirectory()
+
 
 #endif /* UIDefine_h */
