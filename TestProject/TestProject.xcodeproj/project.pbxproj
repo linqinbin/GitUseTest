@@ -58,6 +58,8 @@
 		26488C041C9901100009FC64 /* QRReaderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRReaderViewController.m; sourceTree = "<group>"; };
 		2652CBCE1CAA0B6300F466BB /* CommonCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonCode.h; sourceTree = "<group>"; };
 		2652CBCF1CAA0B6300F466BB /* CommonCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonCode.m; sourceTree = "<group>"; };
+		265D9A9D1CD1ABD600C9BAA5 /* UIDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIDefine.h; sourceTree = "<group>"; };
+		265D9A9E1CD1AE0A00C9BAA5 /* CommonDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonDefine.h; sourceTree = "<group>"; };
 		266FED391CBC99F400C63E07 /* UIImage+QRCodeImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+QRCodeImage.h"; sourceTree = "<group>"; };
 		266FED3A1CBC99F400C63E07 /* UIImage+QRCodeImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+QRCodeImage.m"; sourceTree = "<group>"; };
 		A1A8C6311C85DEDA0055A62C /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 		263507471C8592F3006A4341 /* TestProject */ = {
 			isa = PBXGroup;
 			children = (
+				265D9A9C1CD1AB9800C9BAA5 /* Define */,
 				A1F027311CAEC7DA004B98A4 /* GCD */,
 				263874BB1CA0E37F00FEDF15 /* JavaScriptCore  */,
 				26488C021C9900D20009FC64 /* 二维码扫描 */,
@@ -192,6 +195,15 @@
 			);
 			name = CommonCode;
 			path = "UIView圆角/CommonCode";
+			sourceTree = "<group>";
+		};
+		265D9A9C1CD1AB9800C9BAA5 /* Define */ = {
+			isa = PBXGroup;
+			children = (
+				265D9A9D1CD1ABD600C9BAA5 /* UIDefine.h */,
+				265D9A9E1CD1AE0A00C9BAA5 /* CommonDefine.h */,
+			);
+			path = Define;
 			sourceTree = "<group>";
 		};
 		A1A8C6461C888B020055A62C /* UIView圆角 */ = {
