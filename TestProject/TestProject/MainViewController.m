@@ -24,6 +24,11 @@
     // Do any additional setup after loading the view from its nib.
     //    [self NSInvocationTest];
     NSLog(@"测试");
+    NSLog(@"测试");
+    NSLog(@"测试");
+
+    NSLog(@"测试");
+
 }
 
 - (IBAction)qrBtnClick:(UIButton*)sender
