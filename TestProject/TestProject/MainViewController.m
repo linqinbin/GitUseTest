@@ -11,6 +11,7 @@
 #import "MainViewController.h"
 #import "QRReaderViewController.h"
 #import "SecondViewController.h"
+#import "WKWebViewTestViewController.h"
 
 @interface MainViewController ()
 
@@ -40,9 +41,11 @@
 
 - (IBAction)jsTestClick:(id)sender
 {
-    JavaScriptCoreViewController* JSVC =
-        [[JavaScriptCoreViewController alloc] init];
+//    JavaScriptCoreViewController* JSVC =
+//        [[JavaScriptCoreViewController alloc] init];
 
+    WKWebViewTestViewController* JSVC =
+    [[WKWebViewTestViewController alloc] init];
     [self.navigationController pushViewController:JSVC animated:YES];
 }
 
