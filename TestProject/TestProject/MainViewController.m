@@ -34,6 +34,7 @@
 
     NSLog(@"测试");
 
+
 }
 
 - (IBAction)qrBtnClick:(UIButton*)sender
