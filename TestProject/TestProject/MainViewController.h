@@ -10,4 +10,6 @@
 
 @interface MainViewController : UIViewController
 
+@property (assign, nonatomic) BOOL test2;
+
 @end
