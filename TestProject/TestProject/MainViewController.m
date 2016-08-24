@@ -24,13 +24,6 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     //    [self NSInvocationTest];
-    NSLog(@"测试1");
-    NSLog(@"测试5");
-    NSLog(@"测试");
-    NSLog(@"测试");
-    NSLog(@"测试");
-
-    NSLog(@"测试");
 
 }
 
