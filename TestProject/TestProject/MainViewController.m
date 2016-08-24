@@ -26,6 +26,14 @@
     //    [self NSInvocationTest];
     NSLog(@"test");
     NSLog(@"tes2");
+    NSLog(@"测试1");
+    NSLog(@"测试5");
+    NSLog(@"测试");
+    NSLog(@"测试");
+    NSLog(@"测试");
+
+    NSLog(@"测试");
+
 }
 
 - (IBAction)qrBtnClick:(UIButton*)sender
