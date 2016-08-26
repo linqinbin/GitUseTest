@@ -12,8 +12,10 @@
 #import "QRReaderViewController.h"
 #import "SecondViewController.h"
 #import "WKWebViewTestViewController.h"
+#import "UIImage+ImageBlur.h"
 
 @interface MainViewController ()
+@property (weak, nonatomic) IBOutlet UIImageView *testImageView;
 
 @end
 
@@ -24,6 +26,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     //    [self NSInvocationTest];
+    self.testImageView.image = [UIImage boxblurImage:[UIImage imageNamed:@"style"] withBlurNumber:0.5];
 }
 
 - (IBAction)qrBtnClick:(UIButton*)sender

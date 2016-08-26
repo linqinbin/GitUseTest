@@ -16,6 +16,8 @@
 		263874BF1CA0E3C400FEDF15 /* JavaScriptCoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 263874BD1CA0E3C400FEDF15 /* JavaScriptCoreViewController.m */; };
 		263874C01CA0E3C400FEDF15 /* JavaScriptCoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 263874BE1CA0E3C400FEDF15 /* JavaScriptCoreViewController.xib */; };
 		26488C051C9901100009FC64 /* QRReaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26488C041C9901100009FC64 /* QRReaderViewController.m */; };
+		264FF1B51D702BC90029436A /* UIImage+ImageBlur.m in Sources */ = {isa = PBXBuildFile; fileRef = 264FF1B41D702BC90029436A /* UIImage+ImageBlur.m */; };
+		264FF1B71D702D550029436A /* style.png in Resources */ = {isa = PBXBuildFile; fileRef = 264FF1B61D702D550029436A /* style.png */; };
 		2652CBD01CAA0B6300F466BB /* CommonCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 2652CBCF1CAA0B6300F466BB /* CommonCode.m */; };
 		266676A11D34970F00577840 /* NSNumberFormatterTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 266676A01D34970F00577840 /* NSNumberFormatterTest.m */; };
 		266FED3B1CBC99F400C63E07 /* UIImage+QRCodeImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 266FED3A1CBC99F400C63E07 /* UIImage+QRCodeImage.m */; };
@@ -60,6 +62,9 @@
 		263874BE1CA0E3C400FEDF15 /* JavaScriptCoreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JavaScriptCoreViewController.xib; sourceTree = "<group>"; };
 		26488C031C9901100009FC64 /* QRReaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRReaderViewController.h; sourceTree = "<group>"; };
 		26488C041C9901100009FC64 /* QRReaderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRReaderViewController.m; sourceTree = "<group>"; };
+		264FF1B31D702BC90029436A /* UIImage+ImageBlur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageBlur.h"; sourceTree = "<group>"; };
+		264FF1B41D702BC90029436A /* UIImage+ImageBlur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageBlur.m"; sourceTree = "<group>"; };
+		264FF1B61D702D550029436A /* style.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = style.png; sourceTree = "<group>"; };
 		2652CBCE1CAA0B6300F466BB /* CommonCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonCode.h; sourceTree = "<group>"; };
 		2652CBCF1CAA0B6300F466BB /* CommonCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonCode.m; sourceTree = "<group>"; };
 		2666769F1D34970F00577840 /* NSNumberFormatterTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSNumberFormatterTest.h; sourceTree = "<group>"; };
@@ -135,7 +140,6 @@
 		263507471C8592F3006A4341 /* TestProject */ = {
 			isa = PBXGroup;
 			children = (
-				2666769E1D3496F800577840 /* NSNumberFormatter */,
 				A17BDB171CCD048A001B2D5B /* Category */,
 				A1F027311CAEC7DA004B98A4 /* GCD */,
 				263874BB1CA0E37F00FEDF15 /* JavaScriptCore  */,
@@ -195,6 +199,16 @@
 			path = "二维码扫描";
 			sourceTree = "<group>";
 		};
+		264FF1B21D702B920029436A /* UIImageBlur */ = {
+			isa = PBXGroup;
+			children = (
+				264FF1B61D702D550029436A /* style.png */,
+				264FF1B31D702BC90029436A /* UIImage+ImageBlur.h */,
+				264FF1B41D702BC90029436A /* UIImage+ImageBlur.m */,
+			);
+			path = UIImageBlur;
+			sourceTree = "<group>";
+		};
 		2652CBCD1CAA0B3000F466BB /* CommonCode */ = {
 			isa = PBXGroup;
 			children = (
@@ -211,13 +225,14 @@
 				2666769F1D34970F00577840 /* NSNumberFormatterTest.h */,
 				266676A01D34970F00577840 /* NSNumberFormatterTest.m */,
 			);
-			name = NSNumberFormatter;
-			path = Category/NSNumberFormatter;
+			path = NSNumberFormatter;
 			sourceTree = "<group>";
 		};
 		A17BDB171CCD048A001B2D5B /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				2666769E1D3496F800577840 /* NSNumberFormatter */,
+				264FF1B21D702B920029436A /* UIImageBlur */,
 				A17BDB1C1CCD05E6001B2D5B /* Object */,
 				A17BDB181CCD048A001B2D5B /* NSString */,
 			);
@@ -360,6 +375,7 @@
 				A1EFD9E01C8AD22800231A77 /* 2@2x.png in Resources */,
 				A1EFD9DC1C8AD20400231A77 /* 3@2x.png in Resources */,
 				263507581C8592F3006A4341 /* LaunchScreen.storyboard in Resources */,
+				264FF1B71D702D550029436A /* style.png in Resources */,
 				A1EFD9E21C8AD23600231A77 /* 4@2x.png in Resources */,
 				263507551C8592F3006A4341 /* Assets.xcassets in Resources */,
 			);
@@ -385,6 +401,7 @@
 				260964B81CA1237900AE08FA /* JSTest.m in Sources */,
 				A1A8C64B1C888B370055A62C /* UIImageView+AddCornerRadius.m in Sources */,
 				A17BDB1F1CCD05F8001B2D5B /* Stundent.m in Sources */,
+				264FF1B51D702BC90029436A /* UIImage+ImageBlur.m in Sources */,
 				2635074D1C8592F3006A4341 /* AppDelegate.m in Sources */,
 				A1A8C64C1C888B370055A62C /* UIView+AddCornerRadius.m in Sources */,
 				A1A8C6441C873BB10055A62C /* SecondViewController.m in Sources */,
