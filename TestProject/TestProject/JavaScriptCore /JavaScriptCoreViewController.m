@@ -92,14 +92,12 @@
 //        }
 //        [self jsClick];
 //    };
-    context[@"jsMethod"] = ^() {
-        NSArray *args = [JSContext currentArguments];
-        for (JSValue *jsVal in args) {
-            NSLog(@"%@", jsVal);
-        }
+    context[@"startFunction"] = ^(id obj){
+        [JSContext currentContext];
+        NSData *data = [(NSString *)obj dataUsingEncoding:NSUTF8StringEncoding ];
+        NSDictionary *dict = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:nil];
+        NSLog(@"%@",dict);
     };
-    
-    
     //此处我们没有写后台（但是前面我们已经知道iOS是可以调用js的，我们模拟一下）
     //首先准备一下js代码，来调用js的函数test1 然后执行
     //一个参数

@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Stundent : NSObject
+@interface Stundent : NSObject <NSCoding>
 
 @property (copy, nonatomic) NSString  *name;
 @property (assign, nonatomic) NSInteger  age;

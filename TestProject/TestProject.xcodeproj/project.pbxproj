@@ -17,7 +17,11 @@
 		263874C01CA0E3C400FEDF15 /* JavaScriptCoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 263874BE1CA0E3C400FEDF15 /* JavaScriptCoreViewController.xib */; };
 		26488C051C9901100009FC64 /* QRReaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26488C041C9901100009FC64 /* QRReaderViewController.m */; };
 		2652CBD01CAA0B6300F466BB /* CommonCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 2652CBCF1CAA0B6300F466BB /* CommonCode.m */; };
+		266676A11D34970F00577840 /* NSNumberFormatterTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 266676A01D34970F00577840 /* NSNumberFormatterTest.m */; };
 		266FED3B1CBC99F400C63E07 /* UIImage+QRCodeImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 266FED3A1CBC99F400C63E07 /* UIImage+QRCodeImage.m */; };
+		2673E9E01D3C85610003E4C5 /* WKWebViewTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2673E9DE1D3C85610003E4C5 /* WKWebViewTestViewController.m */; };
+		2673E9E11D3C85610003E4C5 /* WKWebViewTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2673E9DF1D3C85610003E4C5 /* WKWebViewTestViewController.xib */; };
+		2673E9E31D3C9BCE0003E4C5 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2673E9E21D3C9BCE0003E4C5 /* WebKit.framework */; };
 		A17BDB1B1CCD04D4001B2D5B /* NSString+ChineseJudge.m in Sources */ = {isa = PBXBuildFile; fileRef = A17BDB1A1CCD04D4001B2D5B /* NSString+ChineseJudge.m */; };
 		A17BDB1F1CCD05F8001B2D5B /* Stundent.m in Sources */ = {isa = PBXBuildFile; fileRef = A17BDB1E1CCD05F8001B2D5B /* Stundent.m */; };
 		A17BDB221CCD062B001B2D5B /* Stundent+AddProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = A17BDB211CCD062B001B2D5B /* Stundent+AddProperty.m */; };
@@ -59,8 +63,14 @@
 		26488C041C9901100009FC64 /* QRReaderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRReaderViewController.m; sourceTree = "<group>"; };
 		2652CBCE1CAA0B6300F466BB /* CommonCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonCode.h; sourceTree = "<group>"; };
 		2652CBCF1CAA0B6300F466BB /* CommonCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonCode.m; sourceTree = "<group>"; };
+		2666769F1D34970F00577840 /* NSNumberFormatterTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSNumberFormatterTest.h; sourceTree = "<group>"; };
+		266676A01D34970F00577840 /* NSNumberFormatterTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSNumberFormatterTest.m; sourceTree = "<group>"; };
 		266FED391CBC99F400C63E07 /* UIImage+QRCodeImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+QRCodeImage.h"; sourceTree = "<group>"; };
 		266FED3A1CBC99F400C63E07 /* UIImage+QRCodeImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+QRCodeImage.m"; sourceTree = "<group>"; };
+		2673E9DD1D3C85610003E4C5 /* WKWebViewTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKWebViewTestViewController.h; sourceTree = "<group>"; };
+		2673E9DE1D3C85610003E4C5 /* WKWebViewTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKWebViewTestViewController.m; sourceTree = "<group>"; };
+		2673E9DF1D3C85610003E4C5 /* WKWebViewTestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WKWebViewTestViewController.xib; sourceTree = "<group>"; };
+		2673E9E21D3C9BCE0003E4C5 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		A17BDB191CCD04D4001B2D5B /* NSString+ChineseJudge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ChineseJudge.h"; sourceTree = "<group>"; };
 		A17BDB1A1CCD04D4001B2D5B /* NSString+ChineseJudge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ChineseJudge.m"; sourceTree = "<group>"; };
 		A17BDB1D1CCD05F8001B2D5B /* Stundent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stundent.h; sourceTree = "<group>"; };
@@ -101,6 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2673E9E31D3C9BCE0003E4C5 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,6 +121,7 @@
 		2635073C1C8592F3006A4341 = {
 			isa = PBXGroup;
 			children = (
+				2673E9E21D3C9BCE0003E4C5 /* WebKit.framework */,
 				263507471C8592F3006A4341 /* TestProject */,
 				263507461C8592F3006A4341 /* Products */,
 			);
@@ -126,6 +138,7 @@
 		263507471C8592F3006A4341 /* TestProject */ = {
 			isa = PBXGroup;
 			children = (
+				2666769E1D3496F800577840 /* NSNumberFormatter */,
 				A17BDB171CCD048A001B2D5B /* Category */,
 				A1F027311CAEC7DA004B98A4 /* GCD */,
 				263874BB1CA0E37F00FEDF15 /* JavaScriptCore  */,
@@ -167,6 +180,9 @@
 				263874BE1CA0E3C400FEDF15 /* JavaScriptCoreViewController.xib */,
 				260964B61CA1237900AE08FA /* JSTest.h */,
 				260964B71CA1237900AE08FA /* JSTest.m */,
+				2673E9DD1D3C85610003E4C5 /* WKWebViewTestViewController.h */,
+				2673E9DE1D3C85610003E4C5 /* WKWebViewTestViewController.m */,
+				2673E9DF1D3C85610003E4C5 /* WKWebViewTestViewController.xib */,
 			);
 			path = "JavaScriptCore ";
 			sourceTree = "<group>";
@@ -190,6 +206,16 @@
 			);
 			name = CommonCode;
 			path = "UIView圆角/CommonCode";
+			sourceTree = "<group>";
+		};
+		2666769E1D3496F800577840 /* NSNumberFormatter */ = {
+			isa = PBXGroup;
+			children = (
+				2666769F1D34970F00577840 /* NSNumberFormatterTest.h */,
+				266676A01D34970F00577840 /* NSNumberFormatterTest.m */,
+			);
+			name = NSNumberFormatter;
+			path = Category/NSNumberFormatter;
 			sourceTree = "<group>";
 		};
 		A17BDB171CCD048A001B2D5B /* Category */ = {
@@ -335,6 +361,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2673E9E11D3C85610003E4C5 /* WKWebViewTestViewController.xib in Resources */,
 				263874C01CA0E3C400FEDF15 /* JavaScriptCoreViewController.xib in Resources */,
 				A1EFD9D31C8AD0E100231A77 /* AutolayoutCellViewController.xib in Resources */,
 				A1EFD9D81C8AD1A800231A77 /* AutayoutTableViewCell.xib in Resources */,
@@ -364,6 +391,7 @@
 				A17BDB221CCD062B001B2D5B /* Stundent+AddProperty.m in Sources */,
 				A17BDB1B1CCD04D4001B2D5B /* NSString+ChineseJudge.m in Sources */,
 				A1F027341CAEC7F5004B98A4 /* GCDCode.m in Sources */,
+				266676A11D34970F00577840 /* NSNumberFormatterTest.m in Sources */,
 				263874BF1CA0E3C400FEDF15 /* JavaScriptCoreViewController.m in Sources */,
 				A1EFDD681CA195CC00231A77 /* MainViewController.m in Sources */,
 				A1EFD9D21C8AD0E100231A77 /* AutolayoutCellViewController.m in Sources */,
@@ -376,6 +404,7 @@
 				2652CBD01CAA0B6300F466BB /* CommonCode.m in Sources */,
 				2635074A1C8592F3006A4341 /* main.m in Sources */,
 				A1C612BB1DC74A4800B758DA /* UIWebView+CaptureContent.m in Sources */,
+				2673E9E01D3C85610003E4C5 /* WKWebViewTestViewController.m in Sources */,
 				26488C051C9901100009FC64 /* QRReaderViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
