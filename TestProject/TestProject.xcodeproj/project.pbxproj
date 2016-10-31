@@ -25,6 +25,7 @@
 		A1A8C6451C873BB10055A62C /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1A8C6431C873BB10055A62C /* SecondViewController.xib */; };
 		A1A8C64B1C888B370055A62C /* UIImageView+AddCornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A8C6481C888B370055A62C /* UIImageView+AddCornerRadius.m */; };
 		A1A8C64C1C888B370055A62C /* UIView+AddCornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A8C64A1C888B370055A62C /* UIView+AddCornerRadius.m */; };
+		A1C612BB1DC74A4800B758DA /* UIWebView+CaptureContent.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C612BA1DC74A4800B758DA /* UIWebView+CaptureContent.m */; };
 		A1EFD9CD1C8AC5E300231A77 /* NSTimer+XXBlocksSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EFD9CC1C8AC5E300231A77 /* NSTimer+XXBlocksSupport.m */; };
 		A1EFD9D21C8AD0E100231A77 /* AutolayoutCellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EFD9D01C8AD0E100231A77 /* AutolayoutCellViewController.m */; };
 		A1EFD9D31C8AD0E100231A77 /* AutolayoutCellViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1EFD9D11C8AD0E100231A77 /* AutolayoutCellViewController.xib */; };
@@ -73,6 +74,8 @@
 		A1A8C6481C888B370055A62C /* UIImageView+AddCornerRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AddCornerRadius.m"; sourceTree = "<group>"; };
 		A1A8C6491C888B370055A62C /* UIView+AddCornerRadius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AddCornerRadius.h"; sourceTree = "<group>"; };
 		A1A8C64A1C888B370055A62C /* UIView+AddCornerRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AddCornerRadius.m"; sourceTree = "<group>"; };
+		A1C612B91DC74A4800B758DA /* UIWebView+CaptureContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+CaptureContent.h"; sourceTree = "<group>"; };
+		A1C612BA1DC74A4800B758DA /* UIWebView+CaptureContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+CaptureContent.m"; sourceTree = "<group>"; };
 		A1EFD9CB1C8AC5E300231A77 /* NSTimer+XXBlocksSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+XXBlocksSupport.h"; sourceTree = "<group>"; };
 		A1EFD9CC1C8AC5E300231A77 /* NSTimer+XXBlocksSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+XXBlocksSupport.m"; sourceTree = "<group>"; };
 		A1EFD9CF1C8AD0E100231A77 /* AutolayoutCellViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutolayoutCellViewController.h; sourceTree = "<group>"; };
@@ -192,6 +195,7 @@
 		A17BDB171CCD048A001B2D5B /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				A1C612B81DC749D800B758DA /* UIWebView */,
 				A17BDB1C1CCD05E6001B2D5B /* Object */,
 				A17BDB181CCD048A001B2D5B /* NSString */,
 			);
@@ -227,6 +231,15 @@
 				A1A8C64A1C888B370055A62C /* UIView+AddCornerRadius.m */,
 			);
 			path = "UIView圆角";
+			sourceTree = "<group>";
+		};
+		A1C612B81DC749D800B758DA /* UIWebView */ = {
+			isa = PBXGroup;
+			children = (
+				A1C612B91DC74A4800B758DA /* UIWebView+CaptureContent.h */,
+				A1C612BA1DC74A4800B758DA /* UIWebView+CaptureContent.m */,
+			);
+			path = UIWebView;
 			sourceTree = "<group>";
 		};
 		A1EFD9CA1C8AC57F00231A77 /* NSTimer */ = {
@@ -362,6 +375,7 @@
 				A1A8C6441C873BB10055A62C /* SecondViewController.m in Sources */,
 				2652CBD01CAA0B6300F466BB /* CommonCode.m in Sources */,
 				2635074A1C8592F3006A4341 /* main.m in Sources */,
+				A1C612BB1DC74A4800B758DA /* UIWebView+CaptureContent.m in Sources */,
 				26488C051C9901100009FC64 /* QRReaderViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
